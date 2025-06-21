@@ -1,0 +1,80 @@
+@media (max-width: 600px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .playercard {
+        width: 90vw;
+        height: auto;
+        margin: 20px 0;
+    }
+    .playercard img {
+        width: 80vw;
+        height: auto;
+    }
+}
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.playercard {
+    display: flex;
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    border-radius: 20px;
+}
+
+.playercard img {
+    border-radius: 20px;
+    width: 300px;
+    height: 260px;
+    object-fit: cover;
+    margin-bottom: 0px;
+    
+}
+
+p {
+    text-align: center;
+    
+}
+
+.p6 {
+background: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('carritos.jpg') center/cover no-repeat;
+  color: white;
+  
+  border-radius: 10px;
+}
+
+.p3 {
+background: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('adoniback.jpg') center/cover no-repeat;
+  color: white;
+  
+  border-radius: 10px;
+}
+
+.p5 {
+background: 
+    linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+    url('Tefaback1.jpg') center/cover no-repeat;
+  color: white;
+  
+  border-radius: 10px;
+}
