@@ -78,3 +78,13 @@ background:
   
   border-radius: 10px;
 }
+
+.p8 {
+background: 
+    linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
+    url('powpow.jpg') center/cover no-repeat;
+  color: white;
+  
+  border-radius: 10px;
+  font-family: 'Berkshire Swash', sans-serif;
+}
